@@ -8,7 +8,7 @@ import { Pricing } from "./pages/Pricing";
 
 export const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/flowers">
       <div className="min-h-screen bg-ivory font-sans">
         <Navbar />
         <Routes>
