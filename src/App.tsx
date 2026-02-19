@@ -7,8 +7,10 @@ import { Portfolio } from "./pages/Portfolio";
 import { Pricing } from "./pages/Pricing";
 
 export const App = () => {
+  const basename = import.meta.env.BASE_URL;
+  
   return (
-    <BrowserRouter basename="/flowers">
+    <BrowserRouter basename={basename}>
       <div className="min-h-screen bg-ivory font-sans">
         <Navbar />
         <Routes>
