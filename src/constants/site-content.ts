@@ -187,4 +187,16 @@ export const siteContent = {
   about: {
     title: "Our Story",
     description:
-      "Denisha founded Cle
+      "Denisha founded Clev Flower Walls to bring couture floral artistry to Cleveland events. With a background in design and an obsession for detail, she curates immersive floral moments that feel modern, romantic, and effortlessly elevated.",
+    highlights: [
+      "Women-owned luxury event studio",
+      "White-glove delivery and styling",
+      "Custom color-matching and neon design",
+    ],
+    image:
+      "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=1600",
+  },
+  inquiry: {
+    wallOptions: ["Ivory Chantilly", "Blush Moderne", "Midnight Garden", "Golden Hour"],
+  },
+};
